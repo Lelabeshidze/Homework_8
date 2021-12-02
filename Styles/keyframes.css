@@ -1,0 +1,81 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    padding: o;
+    margin: o;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color:yellowgreen;
+    max-width: 1900px;
+    width: 100%;
+}
+.image1 img {
+    width:300px;
+    height:200px;
+    margin-top: 100px;
+    -webkit-animation-duration:4s;
+            animation-duration:4s;
+    -webkit-animation-name: anim1;
+            animation-name: anim1;
+    position:relative;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;       
+}
+.image2 img {
+    width: 300px;
+    height: 300px;
+    margin-left: 1050px;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-name: anim2;
+            animation-name: anim2;
+    position: relative;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;                
+}
+@-webkit-keyframes anim1 {
+    0% { left: 0;}
+    25% {left: 250px;}
+    50% {left: 500px;}
+    75% {left: 750px;}
+    100% {left: 1000px;}
+}
+@keyframes anim1 {
+    0% { left: 0;}
+    25% {left: 250px;}
+    50% {left: 500px;}
+    75% {left: 750px;}
+    100% {left: 1000px;}
+}
+@-webkit-keyframes anim2 {
+    0% { right: 0;}
+    25% {right: 250px;}
+    50% {right: 500px;}
+    75% {right: 750px;}
+    100% {right: 1000px;}
+}
+@keyframes anim2 {
+    0% { right: 0;}
+    25% {right: 250px;}
+    50% {right: 500px;}
+    75% {right: 750px;}
+    100% {right: 1000px;}
+}
+
